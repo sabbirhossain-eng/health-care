@@ -8,7 +8,7 @@ const Offer = () => {
     <div>
       <Container>
         <div className="mt-32">
-          <Card className="relative grid h-[30rem] w-full max-w-full items-end justify-center overflow-hidden rounded-3xl">
+          <Card className="relative grid h-[30rem] w-full md:max-w-full items-end justify-center overflow-hidden rounded-3xl">
             <CardHeader className="absolute inset-0 m-0 h-full w-full rounded-3xl bg-[url('https://i.ibb.co/VCYfYtt/Rectangle-32.png')] bg-cover bg-center">
               <div className="absolute h-full w-full rounded-xl flex items-center bg-gradient-to-r from-primary to-rgba(var(--primary), 0.3)">
                 <div className="text-white pl-10">
@@ -21,12 +21,12 @@ const Offer = () => {
                       at 50% Off !
                     </Typography>
                   </Typography>
-                  <Typography className="mt-10 flex gap-6">
-                  <button className="bg-button-color px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-primary">
+                  <Typography className="mt-10 flex flex-col md:flex-row  gap-6 ">
+                  <button className="bg-button-color px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-primary mx-auto">
                     Appointment
                     <GoArrowUpRight className="text-2xl font-medium" />
                   </button>
-                  <button className="bg-transparent border border-white px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-white">
+                  <button className="bg-transparent border border-white px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-white mx-auto">
                      Learn More
                     <GoArrowUpRight className="text-2xl font-medium" />
                   </button>

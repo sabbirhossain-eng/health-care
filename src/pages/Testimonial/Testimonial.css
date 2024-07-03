@@ -29,3 +29,16 @@
     bottom: 0px !important; /* Moves the pagination down 400px */
     
 }
+
+@media (max-width: 600px) {
+
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+
+}

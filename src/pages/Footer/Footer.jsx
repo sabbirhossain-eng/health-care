@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="bg-primary py-4 text-white mt-32">
       <Container>
         <div className="container px-4 mx-auto">
-          <div className="-mx-4 flex justify-between">
+          <div className=" flex flex-col lg:flex-row justify-between mx-auto">
             <div className="px-2 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
                 <img src={logowhite} alt="" />
@@ -69,7 +69,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-full sm:w-auto mt-20">
+            <div className="px-4 w-full sm:w-auto mt-20">
               <div>
                 <h2 className=" pb-1 mb-1">
                 Follow Us

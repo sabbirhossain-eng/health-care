@@ -30,7 +30,7 @@ const Testimonial = () => {
           >
             {/* slide-1 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   Expertise and Compassion Combined
                 </h2>
@@ -96,7 +96,7 @@ const Testimonial = () => {
             </SwiperSlide>
             {/* slide-2 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   Life-Saving Care, Life-Changing Experience
                 </h2>
@@ -161,7 +161,7 @@ const Testimonial = () => {
             </SwiperSlide>
             {/* slide-3 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   A Partner in Health and Wellness
                 </h2>
@@ -227,7 +227,7 @@ const Testimonial = () => {
             </SwiperSlide>
             {/* slide-1 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   Expertise and Compassion Combined
                 </h2>
@@ -293,7 +293,7 @@ const Testimonial = () => {
             </SwiperSlide>
             {/* slide-2 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   Life-Saving Care, Life-Changing Experience
                 </h2>
@@ -358,7 +358,7 @@ const Testimonial = () => {
             </SwiperSlide>
             {/* slide-3 */}
             <SwiperSlide>
-              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 h-80">
+              <div className="bg-secondary text-text-color rounded-3xl shadow-sm p-10 text-left space-y-5 md:h-80 ">
                 <h2 className="text-xl font-bold">
                   A Partner in Health and Wellness
                 </h2>
