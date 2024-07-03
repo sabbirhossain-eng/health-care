@@ -10,9 +10,9 @@ const StatComponent = () => {
   return (
     <div>
       <Container>
-        <div className="flex justify-between gap-5 mt-4 items-end">
+        <div className="flex flex-col md:flex-row justify-between gap-5 mt-4 md:items-end">
           {/* Stat-1 */}
-          <div className="bg-white overflow-hidden shadow rounded-3xl w-52 h-72">
+          <div className="bg-white overflow-hidden shadow rounded-3xl w-52 h-72 mx-auto">
             <div className=" relative px-4 py-5">
               <dl>
                 <dd className="mt-1 text-3xl leading-9 font-bold text-primary">
@@ -28,11 +28,11 @@ const StatComponent = () => {
             </div>
           </div>
           <div>
-            <h2 className="text-6xl font-semibold text-text-color text-center">Comprehensive Care
+            <h2 className="text-2xl md:text-6xl font-semibold text-text-color text-center">Comprehensive Care
                 <br /> for Every Patient</h2>
-            <div className="flex justify-between gap-10 mt-4 items-end">
+            <div className="flex flex-col md:flex-row justify-between gap-10 mt-4 md:items-end">
               {/* Stat-2 */}
-              <div className="bg-secondary overflow-hidden shadow rounded-3xl w-52 h-48">
+              <div className="bg-secondary overflow-hidden shadow rounded-3xl w-52 h-48 mx-auto">
                 <div className="px-4 py-5 relative">
                   <dl>
                     <dd className="mt-1 text-3xl leading-9 font-bold text-primary">
@@ -48,7 +48,7 @@ const StatComponent = () => {
                 </div>
               </div>
               {/* Stat-3 */}
-              <div className="bg-transparent overflow-hidden shadow-sm rounded-3xl w-52 h-40">
+              <div className="bg-transparent overflow-hidden shadow-sm rounded-3xl w-52 h-40 mx-auto">
                 <div className="px-4 py-5">
                   <dl>
                     <dd className="mt-1 text-3xl leading-9 font-bold text-primary flex items-end">
@@ -91,7 +91,7 @@ const StatComponent = () => {
                 </div>
               </div>
               {/* Stat-4 */}
-              <div className="bg-secondary overflow-hidden shadow rounded-3xl w-52 h-48">
+              <div className="bg-secondary overflow-hidden shadow rounded-3xl w-52 h-48 mx-auto">
                 <div className="px-4 py-5 relative">
                   <dl>
                     <dd className="mt-1 text-3xl leading-9 font-bold text-primary">
@@ -109,7 +109,7 @@ const StatComponent = () => {
             </div>
           </div>
           {/* Stat-5 */}
-          <div className="bg-white overflow-hidden shadow rounded-3xl w-52 h-72">
+          <div className="bg-white overflow-hidden shadow rounded-3xl w-52 h-72 mx-auto">
             <div className=" relative px-4 py-5">
               <dl>
                 <dd className="mt-1 text-3xl leading-9 font-bold text-primary">
