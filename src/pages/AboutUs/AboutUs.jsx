@@ -9,8 +9,8 @@ const AboutUs = () => {
           <button className="bg-white border border-black rounded-3xl px-4 py-2 text-text-color">
             About Us
           </button>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-            <div className="">
+          <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-8 mx-auto mt-4 md:mt-1">
+            <div className="flex-1">
               <h2 className="text-4xl font-bold text-text-color">
               Welcome to HealthCare
               </h2>
@@ -24,7 +24,7 @@ const AboutUs = () => {
             </button>
               </div>
             </div>
-            <div className="mt-12 md:mt-0 mx-auto">
+            <div className="flex-1 md:-mr-24">
               <img
                 src={img}
                 alt="About Us"

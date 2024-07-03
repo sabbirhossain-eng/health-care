@@ -3,6 +3,7 @@ import Faq from "../../Components/Faq/Faq";
 import Offer from "../../Components/Offer/Offer";
 import StatComponent from "../../Components/StatComponent/StatComponnent";
 import AboutUs from "../AboutUs/AboutUs";
+import Blog from "../Blog/Blog";
 import Mission from "../Mission/Mission";
 import Service from "../Service/Service";
 import Testimonial from "../Testimonial/Testimonial";
@@ -19,6 +20,9 @@ const Home = () => {
             <Testimonial/>
             <Faq/>
             <Offer/>
+            <div id="blog">
+            <Blog/>
+            </div>
             <div id="aboutUs">
             <AboutUs/>
             </div>

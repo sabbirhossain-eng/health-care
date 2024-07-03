@@ -53,7 +53,9 @@ const Nav = () => {
           } no-underline  text-md  lg:hover:bg-none text-gray-800 dark:hover:text-white p-4 lg:p-0 inline-block rounded-[10px] w-full`}
           to={"/blog"}
         >
+         <HashLink smooth to="/#blog">
           Blog
+          </HashLink>
         </Link>
       </Typography>
       <Typography className="nav-link relative">
