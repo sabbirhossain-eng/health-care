@@ -7,7 +7,7 @@ const Mission = () => {
       <Container>
         <div className="mt-32 flex flex-col md:flex-row gap-20 md:items-end">
           {/* left side */}
-          <div className="w-[50%]">
+          <div className="md:w-[50%]">
             <button className="bg-secondary border border-black rounded-3xl px-4 py-2 mb-10">
               Who we are
             </button>
@@ -30,13 +30,13 @@ const Mission = () => {
             </button>
           </div>
           {/* right side */}
-          <div className="w-[50%] relative">
+          <div className="md:w-[50%] md:relative">
               <img
                 className="h-96 w-full rounded-3xl object-cover object-center"
                 src={img}
                 alt="nature image"
               />
-            <div className="bg-text-color-secondary text-white w-[70%] px-6 py-8 rounded-3xl absolute -bottom-8 -left-20 space-y-4">
+            <div className="bg-text-color-secondary text-white w-[70%] px-6 py-8 rounded-3xl md:absolute md:-bottom-8 md:-left-20 space-y-4">
             <h3 className="text-2xl">Our mission is simple</h3>
             <p>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
             </div>
