@@ -2,6 +2,7 @@ import Banner from "../../Components/Banner/Banner";
 import StatComponent from "../../Components/StatComponent/StatComponnent";
 import Mission from "../Mission/Mission";
 import Service from "../Service/Service";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <StatComponent/>
             <Mission/>
             <Service/>
+            <Testimonial/>
         </div>
     );
 };

@@ -51,7 +51,7 @@ const Service = () => {
                 alt="nature image"
               />
             <div className="bg-primary text-white w-[70%] px-4 py-5 rounded-3xl md:absolute md:bottom-4 md:left-5 space-y-4 bg-opacity-60">
-            <h3 className="text-xl">Advanced Technology</h3>
+            <h3 className="text-xl">Online Doctor Meet</h3>
             <div className="flex justify-between items-end gap-4">
             <p>Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision  
             </p>
@@ -69,7 +69,7 @@ const Service = () => {
                 alt="nature image"
               />
             <div className="bg-primary text-white w-[70%] px-4 py-5 rounded-3xl md:absolute md:bottom-4 md:left-5 space-y-4 bg-opacity-60">
-            <h3 className="text-xl">Advanced Technology</h3>
+            <h3 className="text-xl">Consultancy your health</h3>
             <div className="flex justify-between items-end gap-4">
             <p>Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision  
             </p>
