@@ -9,6 +9,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../../../assets/Images/logo dark.png";
 import "./Nav.css";
 import { GoArrowUpRight } from "react-icons/go";
+import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
   const { pathname } = useLocation();
@@ -37,8 +38,11 @@ const Nav = () => {
           } no-underline  text-md text-gray-800 dark:hover:text-white p-4 lg:p-0 inline-block rounded-[10px] w-full`}
           to={"/services"}
         >
+          <HashLink smooth to="/#services">
           Services
+          </HashLink>
         </Link>
+        
       </Typography>
       <Typography className="nav-link relative">
         <Link
@@ -55,12 +59,14 @@ const Nav = () => {
       <Typography className="nav-link relative">
         <Link
           className={` ${
-            pathname === "/contactUs"
+            pathname === "/aboutUs"
               ? "text-primary font-bold"
               : "text-gray-700 dark:text-gray-200"
           } no-underline  text-md  lg:hover:bg-none text-gray-800  dark:hover:text-white p-4 lg:p-0 inline-block rounded-[10px] w-full`}
         >
+          <HashLink smooth to="/#aboutUs">
           About Us
+          </HashLink>
         </Link>
       </Typography>
     </ul>
