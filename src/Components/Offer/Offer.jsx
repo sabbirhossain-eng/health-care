@@ -2,6 +2,7 @@ import { Card, CardHeader, Typography } from "@material-tailwind/react";
 import Container from "../Shared/Container/Container";
 import { GoArrowUpRight } from "react-icons/go";
 import logoWhite from "../../assets/Images/logo light.png";
+import { Link } from "react-router-dom";
 
 const Offer = () => {
   return (
@@ -22,10 +23,12 @@ const Offer = () => {
                     </Typography>
                   </Typography>
                   <Typography className="mt-10 flex flex-col md:flex-row  gap-6 ">
+                  <Link to="/appointment">
                   <button className="bg-button-color px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-primary mx-auto">
                     Appointment
                     <GoArrowUpRight className="text-2xl font-medium" />
                   </button>
+                  </Link>
                   <button className="bg-transparent border border-white px-4 py-3 rounded-xl flex gap-1 text-lg font-medium text-white mx-auto">
                      Learn More
                     <GoArrowUpRight className="text-2xl font-medium" />

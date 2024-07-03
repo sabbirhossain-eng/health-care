@@ -3,6 +3,7 @@ import Container from "../../Components/Shared/Container/Container";
 import img1 from "../../assets/Images/Rectangle 27-2.png"
 import img2 from "../../assets/Images/Rectangle 27-1.png"
 import img3 from "../../assets/Images/Rectangle 27.png"
+import { Link } from "react-router-dom";
 const Service = () => {
   return (
     <div>
@@ -20,10 +21,12 @@ const Service = () => {
             <p className="text-text-color-secondary mb-10">
             We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.
             </p>
+            <Link to="/appointment">
             <button className="bg-button-color px-4 py-3 rounded-xl flex gap-1 text-base">
             Appointment
               <GoArrowUpRight className="text-xl font-medium" />
             </button>
+            </Link>
           </div>
           {/* card-2 */}
           <div className="md:relative">
